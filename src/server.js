@@ -34,9 +34,9 @@ app.post("/", (req, res) => {
 
   if (req.body.valorRef) {
     if (req.body.selectTemp == 1) {
-      resultado = conversor.celsiusFahrenheit(req.body.valorRef);
+      resultado = conversor.celsiusFahrenheit(req.body.valorRef).toFixed(2);
     } else {
-      resultado = conversor.fahrenheitCelsius(req.body.valorRef);
+      resultado = conversor.fahrenheitCelsius(req.body.valorRef).toFixed(2);
     }
   }
 
