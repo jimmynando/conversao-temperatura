@@ -35,6 +35,7 @@ jobs:
         with:
           context: src
           file: src/Dockerfile
+          push: true
           tags: |
             jimmytri0/aula-conversao-temperatura:v1
             jimmytri0/aula-conversao-temperatura:latest
