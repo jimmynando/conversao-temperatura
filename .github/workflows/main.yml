@@ -21,3 +21,8 @@ jobs:
         uses: actions/setup-node@v4.3.0
         with:
           node-version: 18.20.7
+      - name: Mocha install
+        run: |
+          cd src;
+          npm install -g mocha;
+          npm install
