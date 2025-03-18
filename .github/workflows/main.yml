@@ -43,5 +43,5 @@ jobs:
           file: src/Dockerfile
           push: true
           tags: |
-            jimmytri0/aula-conversao-temperatura:${{github.run_number}}
+            jimmytri0/aula-conversao-temperatura:v1.${{github.run_number}}
             jimmytri0/aula-conversao-temperatura:latest
